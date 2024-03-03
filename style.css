@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    padding-left: 60px;
+    background-image: url(./port.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: lightskyblue;
+    background-attachment: fixed;
+}
+.bar{
+    width: 100%;
+}
+nav{
+    display: flex;
+    background-color: lightskyblue;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+.logo{
+    width: 80px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin:10px 20px ;
+}
+
+nav ul li a{
+    color:white ;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: white;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+
+.infocontainer{
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.hello{
+    color: lightseagreen;
+    padding-top: 190px;
+    font-size: 120px;
+    padding-left: 280px;
+}
+
+.name{
+    color: lightseagreen;
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 280px;
+    padding-bottom: 140px;
+}
+
+.about{
+    padding-top: 60px;
+    font-size: 20px;
+    padding-left: 60px;
+}
+
+.more{
+    width: 900px;
+    font-weight: lighter;
+    color: white;
+    padding-top: 20px;
+    font-size: 20px;
+    padding-left: 60px;
+    background-color: lightskyblue;
+    border-radius: 20px;
+    margin-bottom: 90px;
+}
+/*contact me*/
+.contactme{
+    margin-left: 80px;
+    padding-top: 50px;
+}
+
+#tocon{
+    width: 300px;
+    height: 60px;
+    font-size: 50px;
+    text-align: center;
+    background-color: rgb(56, 153, 148);
+    color: white;
+    border-radius: 10px;
+}
+.contactme form input{
+    border-radius: 10px;
+    width: 60%;
+    height: 40px;
+    margin: 10px;
+}
+.contactme form textarea{
+    border-radius: 10px;
+    width: 60%;
+    height: 140px;
+    margin: 10px;
+}
+/**/
+
+.pic img{
+    width: 20vh;
+    height: 25vh;
+    border-radius: 10px;
+}
+
+.me{
+    width: 300px;
+    height: 60px;
+    font-size: 50px;
+    text-align: center;
+    background-color: rgb(56, 153, 148);
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.paras{
+    padding-top: 80px;
+    width: 700px;
+    font-weight: lighter;
+    color: lightskyblue;
+    padding-top: 20px;
+    font-size: 20px;
+    padding-left: 60px;
+    background-color: white;
+    border-radius: 20px;
+}
+.aboutme {
+    margin-top: 80px;
+    margin-left: 50px;
+    font-size: 30px;
+}
+
+#abt{
+    margin-left: 50px;
+    display: flex;
+}
+
+.detail{
+    width: 400px;
+    height: 60px;
+    font-size: 50px;
+    text-align: center;
+    background-color: rgb(56, 153, 148);
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.personal{
+    margin-top: 70px;
+    margin-left: 80px;
+    font-size: 30px;
+}
+.personal label{
+    color: lightskyblue;
+    font-weight: bolder;
+    background-color: white;
+    border-radius: 20px;
+}
+.personal input{
+   height: 40px;
+   font-size: 30px;
+   border-radius: 10px;
+}
+
+/*social media*/
+.medias{
+    width: 300px;
+    height: 60px;
+    font-size: 50px;
+    text-align: center;
+    background-color: rgb(56, 153, 148);
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.social{
+    margin-left: 100px;
+    color: lightseagreen;
+    margin-left: 60px;
+    font-size: 20px;
+}
+/**/
+
+.box{
+    margin-top: 60px;
+    display: flex;
+    margin-bottom: 60px;
+}
+.skill{
+    width: 300px;
+    height: 60px;
+    font-size: 50px;
+    text-align: center;
+    background-color: rgb(56, 153, 148);
+    color: white;
+    border-radius: 10px;
+}
+.skills ul{
+    margin-top: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: lightskyblue;
+    background-color: white;
+    border-radius: 20px;
+}
+.skills{
+    margin-left: 80px;
+    font-size: 30px;
+}
+
+.ed{
+    width: 300px;
+    height: 60px;
+    font-size: 50px;
+    text-align: center;
+    background-color: rgb(56, 153, 148);
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.education{
+    margin-left: 80px;
+    font-size: 30px;
+}
+.edu{
+    font-size: 20px;
+    color: lightskyblue;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.contact-left{
+    margin-left: 80px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.ctme{
+    padding-top: 160px;
+    padding-left: 280px;
+    padding-bottom: 90px;
+}
+.ctme form input{
+    border-radius: 10px;
+    width: 60%;
+    height: 40px;
+    margin: 10px;
+}
+.ctme form textarea{
+    border-radius: 10px;
+    width: 60%;
+    height: 140px;
+    margin: 10px;
+}
+
+.certifications{
+    display: flex;
+    width: 800px;
+    margin: 60px;
+}
+.certifications2{
+    display: flex;
+    width: 800px;
+    margin: 60px;
+}
+.b1{
+    padding: 20px;
+    height: 90px;
+    text-align: center;
+    justify-content: center;
+    background-color: lightseagreen;
+    color: white;
+    margin: 30px;
+    border-radius: 35px;
+}
+.hed{
+    background-color: white;
+    color: lightseagreen;
+    border-radius: 10px;
+}
+#ct{
+    width: 300px;
+    height: 60px;
+    font-size: 50px;
+    text-align: center;
+    background-color: rgb(56, 153, 148);
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-left: 80px;
+}
